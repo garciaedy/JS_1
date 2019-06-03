@@ -45,5 +45,30 @@ console.log(average)
 //Multiple assingment 
 
 var x, y;
-x = (3+5)*4-6;
+x = y = (3+5)*4-6;
+console.log(x, y);
+
+// more operators 
+
+x *= 2;
 console.log(x);
+x += 10;
+console.log(x);
+x -= 20;
+console.log(x);
+
+// Body Mass Index 
+let massMark = 78; //kg
+let heightMark = 1.69; //meters
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn)
+
+var markHigherBMI = BMIMark > BMIJohn;
+console.log('Is Mark\'s  BMI higher than John\'s?' + markHigherBMI);
+
